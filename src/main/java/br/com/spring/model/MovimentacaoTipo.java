@@ -1,5 +1,7 @@
 package br.com.spring.model;
 
-public class MovimentacaoTipo {
+public enum MovimentacaoTipo {
 
+	RECEITA,
+	DESPESA
 }
