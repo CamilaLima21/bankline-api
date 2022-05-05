@@ -1,5 +1,6 @@
 package br.com.spring.model;
 
+import javax.annotation.Generated;
 import javax.persistence.Column;
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
@@ -9,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="tab-correntista")
+@Table(name="tab_correntista")
 public class Correntista {
 
 	@Id

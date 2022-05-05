@@ -12,7 +12,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="tab-movimentacao")
+@Table(name="tab_movimentacao")
 public class Movimentacao {
 
 	@Id
